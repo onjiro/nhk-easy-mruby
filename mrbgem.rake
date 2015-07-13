@@ -12,5 +12,4 @@ MRuby::Gem::Specification.new('nhk-easy-mruby') do |spec|
   #spec.add_dependency 'mruby-json', mgem: 'mruby-json'
   spec.add_dependency 'mruby-json', github: 'zzak/mruby-json'
   spec.add_dependency 'mruby-onig-regexp', mgem: 'mruby-onig-regexp'
-  #spec.add_dependency 'mruby-uri', github: 'zzak/mruby-uri'
 end

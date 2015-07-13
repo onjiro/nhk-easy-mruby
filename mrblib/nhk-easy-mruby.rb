@@ -5,7 +5,6 @@ module NHK
 
     class Client
       def news_list
-        #http = SimpleHttp.new(BASE_URI.scheme, BASE_URI.host)
         http = SimpleHttp.new("http", "www3.nhk.or.jp")
         data = http
           .get("/news/easy/news-list.json")

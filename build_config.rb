@@ -10,7 +10,6 @@ MRuby::Build.new do |conf|
   #conf.gem :mgem => 'mruby-json'
   conf.gem :github => 'zzak/mruby-json'
   conf.gem :mgem => 'mruby-onig-regexp'
-  #conf.gem :github => 'zzak/mruby-uri'
 
   conf.gem File.expand_path(File.dirname(__FILE__))
 end

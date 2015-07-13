@@ -15,7 +15,7 @@ module NHK
         json.map do |list|
           list.keys.each do |date|
             list[date].each do |item|
-              news_list.entries << News.new(date: date, item: item)
+              news_list.entries << News.new(date, item)
             end
           end
         end

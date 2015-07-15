@@ -7,8 +7,7 @@ MRuby::Build.new do |conf|
   conf.gem :mgem => 'mruby-io'
   conf.gem :mgem => 'mruby-mtest'
   conf.gem :mgem => 'mruby-simplehttp'
-  #conf.gem :mgem => 'mruby-json'
-  conf.gem :github => 'zzak/mruby-json'
+  conf.gem :mgem => 'mruby-json'
   conf.gem :mgem => 'mruby-onig-regexp'
 
   conf.gem File.expand_path(File.dirname(__FILE__))

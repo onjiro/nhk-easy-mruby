@@ -1,7 +1,7 @@
 module NHK
   module Easy
     BASE_URI = "http://www3.nhk.or.jp/news/easy/"
-    BASE_MOVIE_URI = "rtmp://flv.nhk.or.jp/ondemand/flv/news/&movie="
+    BASE_MOVIE_URI = "rtmp://flv.nhk.or.jp/ondemand/flv/news/"
 
     class Client
       def news_list
@@ -54,7 +54,7 @@ module NHK
       end
 
       def news_web_movie_url
-        NHK::Easy::BASE_MOVIE_URI+news_web_movie_uri
+        NHK::Easy::BASE_MOVIE_URI+":"+news_web_movie_uri
       end
 
       def news_easy_image_url
@@ -62,7 +62,7 @@ module NHK
       end
 
       def news_easy_movie_url
-        NHK::Easy::BASE_MOVIE_URI+news_easy_movie_uri
+        NHK::Easy::BASE_MOVIE_URI+":"+news_easy_movie_uri
       end
 
       def news_easy_voice_url

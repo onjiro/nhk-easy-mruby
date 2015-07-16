@@ -50,7 +50,7 @@ module NHK
       end
 
       def news_web_image_url
-        NHK::Easy::BASE_URI+"#{news_id}/#{news_web_image_uri}"
+        news_web_image_uri
       end
 
       def news_web_movie_url
@@ -58,7 +58,7 @@ module NHK
       end
 
       def news_easy_image_url
-        NHK::Easy::BASE_URI+"#{news_id}/#{news_easy_image_uri}"
+        news_easy_image_uri
       end
 
       def news_easy_movie_url

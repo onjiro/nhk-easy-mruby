@@ -7,5 +7,4 @@ MRuby::Gem::Specification.new('nhk-easy-mruby') do |spec|
   spec.add_dependency 'mruby-mtest', mgem: 'mruby-mtest'
   spec.add_dependency 'mruby-simplehttp', mgem: 'mruby-simplehttp'
   spec.add_dependency 'mruby-json', mgem: 'mruby-json'
-  spec.add_dependency 'mruby-onig-regexp', mgem: 'mruby-onig-regexp'
 end
